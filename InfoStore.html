@@ -1,0 +1,45 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<title>Laptop Procedure Submittal - InfoStore</title>
+</head>
+<BODY BGCOLOR="#FFFFF0" TEXT="#000000" LINK="#0000EE" VLINK="#551A8B">
+<h1><center> Laptop Procedure Manager - InfoStore</center></h1>
+<hr>
+<p>
+<b>
+<form METHOD=POST ACTION="http://neato..east/InfoStore">
+Procedure Action: <select name="data_Action" size=1 >
+<option> Submit
+<option> Update
+<option> Remove
+</select>
+Category: <select name="data_Category" size=1>
+<option> Applications
+<option> Cables
+<option> Communications
+<option> Hardware
+<option> Misc.
+<option> Network
+<option> SNAP
+</select><br><p>
+Index #: <input text name="data_Proc" size=5"> Number needed only for procedure Removal and Update.<br>
+<hr>
+Title: <input text name="data_Title" size=40"><br><p>
+Revision: <input text name="data_Rev" size=6"><br><p>
+Last Update: <input text name="data_Update" size=11"> Month/date/year: 05/12/2003<br><p>
+Author: <input text name="data_Author" size=40"><br><p>
+<b>Enter Email Address:<b> <input text name="data_Email" size=30"><br><p>
+Help Alias:</b> <A href="mailto:ne-laptop@east">ne-laptop@east</A> <p>
+<b>Web Site:</b> <a href="http://neato.east/laptop/"> http://neato.east/laptop/ </a> <p>
+<p>
+<b>Procedure Details:</b><p>
+<textarea name="data_Text" rows=30 cols=80></textarea>
+<p>
+<input type="submit" value="Submit">
+<input type="reset" value= "Reset"><br>
+</form>
+</b>
+<P>
+<HR>
+</BODY></HTML>

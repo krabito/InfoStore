@@ -1,0 +1,3 @@
+InfoStore - JavaServer Pages
+InfoStore - Used to add, update, remove a document on process/procedure based on outcome of escalations that field SE worked on.
+Utilizes Northeast Area Escalation Webserver. Documents are stored in a database running on the server.
